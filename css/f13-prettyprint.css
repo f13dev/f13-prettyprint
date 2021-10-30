@@ -1,0 +1,180 @@
+pre.prettyprint {
+    border-radius: 0;
+    padding: 10px;
+}
+
+/* PHP / Default */
+.str {
+    color: #90A959;
+}
+.kwd {
+    color: #6A9FB5;
+}
+.com {
+    color: #bfbfbf;
+}
+.typ {
+    color: #678cb1;
+}
+.lit {
+    color: #facd22;
+}
+.pln,
+.pun {
+    color: #f1f2f3;
+}
+.tag {
+    color: #8ac763;
+}
+.atn {
+    color: #e0e2e4;
+}
+.atv {
+    color: #ec7600;
+}
+.dec {
+    color: #D56A6B;
+}
+pre.prettyprint {
+    border: 0 solid #888;
+}
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ol.linenums li::marker {
+    color: #8A8A8A;
+}
+
+.prettyprint {
+    background: #222;
+}
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+    color: #555;
+    list-style-type: decimal;
+}
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+    background: #222;
+}
+@media print {
+    .kwd,
+    .tag,
+    .typ {
+        font-weight: 700;
+    }
+    .str {
+        color: #060;
+    }
+    .kwd {
+        color: #006;
+    }
+    .com {
+        color: #600;
+        font-style: italic;
+    }
+    .typ {
+        color: #404;
+    }
+    .lit {
+        color: #044;
+    }
+    .pun {
+        color: #440;
+    }
+    .pln {
+        color: #000;
+    }
+    .tag {
+        color: #006;
+    }
+    .atn {
+        color: #404;
+    }
+    .atv {
+        color: #060;
+    }
+}
+
+
+/* CSS */
+.lang-css .str {
+    color: #90A959;
+}
+.lang-css .kwd {
+    color: #eee;
+}
+.lang-css .com {
+    color: #bfbfbf;
+}
+.lang-css .typ {
+    color: #678cb1;
+}
+.lang-css .lit {
+    color: #A28299;
+}
+.lang-css .pln {
+    color: #fa8439
+}
+.lang-css .pun {
+    color: #fff;
+}
+.lang-css .tag {
+    color: #8ac763;
+}
+.lang-css .atn {
+    color: #e0e2e4;
+}
+.lang-css .atv {
+    color: #ec7600;
+}
+.lang-css .dec {
+    color: #D56A6B;
+}
+
+/* HTML */
+.lang-html .str {
+    color: #90A959;
+}
+.lang-html .kwd {
+    color: #eee;
+}
+.lang-html .com {
+    color: #bfbfbf;
+}
+.lang-html .typ {
+    color: #678cb1;
+}
+.lang-html .lit {
+    color: #A28299;
+}
+.lang-html .pln {
+    color: #fff
+}
+.lang-html .pun {
+    color: #fff;
+}
+.lang-html .tag {
+    color: #6A9FB5;
+}
+.lang-html .atn {
+    color: #A28299;
+}
+.lang-html .atv {
+    color: #75B580;
+}
+.lang-html .dec {
+    color: #F4BF5E;
+}
